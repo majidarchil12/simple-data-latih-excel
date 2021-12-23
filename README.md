@@ -1,20 +1,41 @@
-<h1>Basic Import Usage of maatwebsite/excel</h1>
-    <br>
+# Basic Import Usage of maatwebsite/excel
 
-    <h3>Tutorial : </h3>
-    <br>
+This repo is a simple Laravel usage of maatwebsite/excel package
 
-    <p>
-        <ul>
-            <li>clone this repository or download as zip ex : </li>
-            <li>git clone https://github.com/majidarchil12/simple-data-latih-excel.git</li>
-            <li>composer install</li>
-            <li>create database with name "testing_excel"</li>
-            <li>php artisan key:generate</li>
-            <li>php artisan migrate</li>
-            <li>php artisan serve</li> 
-            <li>open browser then go to http://127.0.0.1:8000/excel</li>
-            <li>upload file data-latih.xlsx from public/file-excel</li>
-            <li>submit</li>
-        </ul>
-    </p>
+## Tutorial
+
+clone this repository or download as zip ex : 
+
+```bash
+git clone https://github.com/majidarchil12/simple-data-latih-excel.git
+```
+
+## Then
+
+```bash
+cd simple-data-latih-excel
+```
+
+```bash
+composer install
+```
+
+create database with name ('testing_excel')
+
+```php
+php artisan key:generate
+```
+
+```php
+php artisan migrate
+```
+
+```php
+php artisan serve
+```
+
+open browser then go to [http://127.0.0.1:8000/excel](http://127.0.0.1:8000/excel)
+
+upload file [data-latih.xlsx](https://github.com/majidarchil12/simple-data-latih-excel/blob/master/public/file-excel/data-latih.xlsx) from public/file-excel
+
+submit, then see the result
